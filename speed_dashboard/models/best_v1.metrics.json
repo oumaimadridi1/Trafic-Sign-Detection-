@@ -1,0 +1,18 @@
+{
+  "model": "best_v1.pt",
+  "split": "test",
+  "note": "Measured on the 11-image test set (14 sign instances). Classes with no instance in the test set are NOT evaluated. With 1 to 4 instances per class these numbers are very noisy.",
+  "overall": {"precision": 0.75, "recall": 0.541, "map50": 0.645, "map50_95": 0.45},
+  "class_names": ["give way","no entry","no parking","no stopping","no trucks","no vehicles carrying dangerous goods","no vehicles carrying explosives","no vehicles carrying water pollutants","parking zone","pay parking zone","pedestrian crossing ahead","road works","roundabout","speed limit 30","speed limit 50","turn right"],
+  "classes": [
+    {"name":"no entry","images":1,"instances":1,"precision":1.0,"recall":0.0,"map50":0.249,"map50_95":0.224},
+    {"name":"no parking","images":1,"instances":1,"precision":0.286,"recall":1.0,"map50":0.995,"map50_95":0.895},
+    {"name":"no stopping","images":4,"instances":4,"precision":1.0,"recall":0.667,"map50":0.912,"map50_95":0.737},
+    {"name":"no trucks","images":1,"instances":1,"precision":0.592,"recall":1.0,"map50":0.995,"map50_95":0.697},
+    {"name":"pedestrian crossing ahead","images":1,"instances":1,"precision":1.0,"recall":0.0,"map50":0.497,"map50_95":0.298},
+    {"name":"roundabout","images":3,"instances":3,"precision":0.305,"recall":0.203,"map50":0.168,"map50_95":0.101},
+    {"name":"speed limit 30","images":1,"instances":1,"precision":0.834,"recall":1.0,"map50":0.995,"map50_95":0.697},
+    {"name":"speed limit 50","images":1,"instances":1,"precision":0.737,"recall":1.0,"map50":0.995,"map50_95":0.398},
+    {"name":"turn right","images":1,"instances":1,"precision":1.0,"recall":0.0,"map50":0.0,"map50_95":0.0}
+  ]
+}

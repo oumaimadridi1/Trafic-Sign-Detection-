@@ -1,0 +1,22 @@
+train: train/images
+val: valid/images
+test: test/images
+nc: 16
+names:
+- give way
+- no entry
+- no parking
+- no stopping
+- no trucks
+- no vehicles carrying dangerous goods
+- no vehicles carrying explosives
+- no vehicles carrying water pollutants
+- parking zone
+- pay parking zone
+- pedestrian crossing ahead
+- road works
+- roundabout
+- speed limit 30
+- speed limit 50
+- turn right
+path: C:/Users/dridi/OneDrive/Desktop/speed_signs/dataset

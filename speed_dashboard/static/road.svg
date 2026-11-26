@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#071741"/><stop offset=".52" stop-color="#1D4AA8"/><stop offset=".53" stop-color="#0B2257"/><stop offset="1" stop-color="#061436"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#8DB8FF" stop-opacity=".8"/><stop offset="1" stop-color="#8DB8FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#sky)"/>
+  <ellipse cx="480" cy="282" rx="420" ry="110" fill="url(#glow)"/>
+  <path d="M458 282 L-40 540 H1000 L502 282Z" fill="#0A1E52"/>
+  <path d="M458 282 L-40 540 M502 282 L1000 540" stroke="#DDE8FF" stroke-opacity=".6" stroke-width="3" fill="none"/>
+  <g fill="#fff" fill-opacity=".75">
+    <polygon points="479,292 481,292 481.6,304 478.4,304"/>
+    <polygon points="478.6,322 481.4,322 482.6,344 477.4,344"/>
+    <polygon points="477.6,372 482.4,372 484.8,410 475.2,410"/>
+    <polygon points="475.4,450 484.6,450 490,520 470,520"/>
+  </g>
+  <g transform="translate(655 150)">
+    <rect x="-3" y="48" width="6" height="86" rx="3" fill="#BFD2FF" fill-opacity=".6"/>
+    <circle r="46" fill="#fff"/>
+    <circle r="46" fill="none" stroke="#E5484D" stroke-width="10"/>
+    <text x="0" y="14" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="40" fill="#0B1B44">50</text>
+  </g>
+</svg>

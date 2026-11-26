@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-multipart
+numpy
+opencv-python
+pyyaml
+# ultralytics + torch are already installed in your venv
